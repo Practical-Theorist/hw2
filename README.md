@@ -4,9 +4,9 @@
 * Due: 10/16 at 10:00AM via Gradescope
 * worth 3.75% of your grade 
 
+Highly recommend to draft your answers using this template ([pdf](hw2_template.pdf), [latex](hw2_template.tex)).
 
-
-# 1. Relational Algebra
+## 1. Relational Algebra
 
 **(2 points each, 4 points total)**
 
@@ -20,13 +20,13 @@ Note: sales(liquors) references liquors(lid), and month is a text field (e.g. Ja
 
 Construct relational algebra for the following queries:
 
-* **Q1**: Find the names of liquors that had at least one sale in "Clarke" or "Marshall" counties for the month of October.
+* **Q1**: Find the names of liquors that had at least one sale in "Clarke" or "Marshall" counties for the month of November.
 
-* **Q2**: Find the names of manufacturers that sold at least two different liquors during the month of October in "Clarke" county.
+* **Q2**: Find the names of manufacturers that sold at least three different liquors during the month of January in "Marshall" county.
 
 
 
-# 2. More Relational Algebra
+## 2. More Relational Algebra
 
 **(1 point each, 6 points total)**
 
@@ -53,16 +53,25 @@ B | C | D
 Express the results for the relational algebra expressions:
 
 
-1. π<sub>B,C</sub>(T2)
+1. π<sub>A,B</sub>(T1)
 2. T1 × π<sub>A</sub>(T1)
-3. T1 ⨝<sub>T1.C=T2.D</sub> T2 
-4. T2 − (T1 ∩ T2)
-5. T2 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
-6. T1 ⨝ (σ<sub>D=c</sub>(T2))
+3. T1 ⨝<sub>T1.B=T2.C</sub> T2 
+4. T1 − (T1 ∩ T2)
+5. T2 ⨝<sub>T2.A&lt;T1.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+6. T1 ⨝ (σ<sub>B=c</sub>(T2))
+
+## 3. SQL
+Write the following relational algebra expressions in SQL. 
+
+1. π<sub>name,age</sub>(Student)
+2. Student × π<sub>age</sub>(Student)
+3. Student ⨝<sub>Student.name=Teacher.name</sub> Teacher 
+4. Student − (Student ∩ Teacher)
+5. (σ<sub>year=2018</sub>(Student) )⨝<sub>Student.age&lt;Teacher.age</sub> (σ<sub>name=engene</sub>(Teacher))
+6. Student ⨝ (σ<sub>age&lt;=50</sub>(Teacher))
 
 
-
-# Submission
+## Submission
 
 Submit a PDF file containing your answers to Gradescope.
 

@@ -5,15 +5,13 @@
 * worth 3.75% of your grade 
 
 
-We want to emphasize that we have picked this dataset for educational purposes
-and are not encouraging you to drink.
-
 
 # 1. Relational Algebra
 
 **(2 points each, 4 points total)**
 
   liquors(**lid**, name, price, manufacturer)
+  
   sales(**month**, **seller**, **liquors**, county, quantity)
 
 Given the simplified schema above (primary keys are in **bold**), construct relational algebra for the following queries. Note: sales(liquors) references liquors(lid), and month is a text field (e.g. January, February).

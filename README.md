@@ -10,11 +10,15 @@
 
 **(2 points each, 4 points total)**
 
-  liquors(**lid**, name, price, manufacturer)
-  
-  sales(**month**, **seller**, **liquors**, county, quantity)
+Consider the simplified schema below (primary keys are in **bold**):
 
-Given the simplified schema above (primary keys are in **bold**), construct relational algebra for the following queries. Note: sales(liquors) references liquors(lid), and month is a text field (e.g. January, February).
+* liquors(**lid**, name, price, manufacturer)
+  
+* sales(**month**, **seller**, **liquors**, county, quantity)
+
+Note: sales(liquors) references liquors(lid), and month is a text field (e.g. January, February).
+
+Construct relational algebra for the following queries:
 
 * **Q1**: Find the names of liquors that had at least one sale in "Clarke" or "Marshall" counties for the month of October.
 
@@ -50,11 +54,11 @@ Express the results for the relational algebra expressions:
 
 
 1. π<sub>B,C</sub>(T2)
-1. T1 × π<sub>A</sub>(T1)
-1. T1 ⨝<sub>T1.C=T2.D</sub> T2 
-1. T2 − (T1 ∩ T2)
-1. T2 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
-1. T1 ⨝ (σ<sub>D=c</sub>(T2))
+2. T1 × π<sub>A</sub>(T1)
+3. T1 ⨝<sub>T1.C=T2.D</sub> T2 
+4. T2 − (T1 ∩ T2)
+5. T2 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+6. T1 ⨝ (σ<sub>D=c</sub>(T2))
 
 
 

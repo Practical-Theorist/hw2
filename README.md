@@ -50,7 +50,7 @@ B | C | D
 3 | x | a
 
 
-Express the results for the relational algebra expressions:
+Write the result table for the relational algebra expressions:
 
 
 1. π<sub>A,B</sub>(T1)

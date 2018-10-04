@@ -1,7 +1,7 @@
 # Homework 2
 
 * Assigned: 10/4
-* Due: 10/16 at 10:00AM electronically
+* Due: 10/16 at 10:00AM via Gradescope
 * worth 3.75% of your grade 
 
 

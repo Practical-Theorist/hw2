@@ -64,5 +64,7 @@ Express the results for the relational algebra expressions:
 
 # Submission
 
-Submit a PDF file containing your answers to Gradescope
+Submit a PDF file containing your answers to Gradescope.
+
+Consider using a text editor. Scanned documents are fine, but make sure your answers are readable.
 

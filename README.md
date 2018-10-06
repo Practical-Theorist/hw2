@@ -57,7 +57,7 @@ Write the result table for the relational algebra expressions:
 2. T1 × π<sub>A</sub>(T1)
 3. T1 ⨝<sub>T1.B=T2.C</sub> T2 
 4. T1 − (T1 ∩ T2)
-5. T2 ⨝<sub>T2.A&lt;T1.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+5. T1 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
 6. T1 ⨝ (σ<sub>B=c</sub>(T2))
 
 ## 3. SQL

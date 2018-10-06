@@ -8,7 +8,12 @@ Highly recommend to draft your answers using this template ([pdf](hw2_template.p
 
 ## Update logs
 ### 10.05.2018
-changed: 2.5 T1 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+#### Changed
+- 2.5 T1 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+
+#### Added
+- 'Simply answer NULL if you believe the resulting table is empty or there are some errors with the expressions' is added to the description of **2. More Relational Algebra**.
+
 
 ## 1. Relational Algebra
 
@@ -33,6 +38,8 @@ Construct relational algebra for the following queries:
 ## 2. More Relational Algebra
 
 **(1 point each, 6 points total)**
+
+Simply answer NULL if you believe the resulting table is empty or there are some errors with the expressions.
 
 Given the following tables
 

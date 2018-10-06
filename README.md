@@ -6,6 +6,10 @@
 
 Highly recommend to draft your answers using this template ([pdf](hw2_template.pdf), [latex](hw2_template.tex)).
 
+## Update logs
+### 10.05.2018
+changed: 2.5 T1 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
+
 ## 1. Relational Algebra
 
 **(2 points each, 4 points total)**

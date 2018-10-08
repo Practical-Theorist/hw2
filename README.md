@@ -7,6 +7,10 @@
 Highly recommend to draft your answers using this template ([pdf](hw2_template.pdf), [latex](hw2_template.tex)).
 
 ## Update logs
+### 10.08.2018
+#### Added
+- 'Make sure your SQL can be executed.' is added to the description of **3. SQL**.
+
 ### 10.05.2018
 #### Changed
 - 2.5 T1 ⨝<sub>T1.A&lt;T2.B</sub> (σ<sub>B&lt;=2</sub>(T2))
@@ -72,7 +76,7 @@ Write the result table for the relational algebra expressions:
 6. T1 ⨝ (σ<sub>B=c</sub>(T2))
 
 ## 3. SQL
-Write the following relational algebra expressions in SQL. 
+Write the following relational algebra expressions in SQL. Make sure your SQL can be executed.
 
 1. π<sub>name,age</sub>(Student)
 2. Student × π<sub>age</sub>(Student)

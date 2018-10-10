@@ -37,6 +37,8 @@ Construct relational algebra for the following queries:
 
 * **Q2**: Find the names of manufacturers that sold at least three different liquors during the month of January in "Marshall" county.
 
+**Note:** Please use only operators covered in class. For Q2, it might help to think about the "at least two" case and then expand it to "at least three".
+
 
 
 ## 2. More Relational Algebra
@@ -77,6 +79,8 @@ Write the result table for the relational algebra expressions:
 
 ## 3. SQL
 Write the following relational algebra expressions in SQL. Make sure your SQL can be executed.
+
+**Note:** You don't need to know the full schema to translate these statements.
 
 1. π<sub>name,age</sub>(Student)
 2. Student × π<sub>age</sub>(Student)

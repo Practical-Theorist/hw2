@@ -7,6 +7,10 @@
 Highly recommend to draft your answers using this template ([pdf](hw2_template.pdf), [latex](hw2_template.tex)).
 
 ## Update logs
+### 10.11.2018
+#### Added
+- 'You can answer relational algebra with sub steps.' is added to the description of **1. Relational Algebra**.
+
 ### 10.08.2018
 #### Added
 - 'Make sure your SQL can be executed.' is added to the description of **3. SQL**.
@@ -31,7 +35,7 @@ Consider the simplified schema below (primary keys are in **bold**):
 
 Note: sales(liquors) references liquors(lid), and month is a text field (e.g. January, February).
 
-Construct relational algebra for the following queries:
+Construct relational algebra for the following queries, you can answer relational algebra with sub steps:
 
 * **Q1**: Find the names of liquors that had at least one sale in "Clarke" or "Marshall" counties for the month of November.
 
